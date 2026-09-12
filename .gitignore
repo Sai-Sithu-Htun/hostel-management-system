@@ -1,0 +1,16 @@
+# Backup / editor artifacts (never commit)
+*.bak
+*.bak-*
+*.colorfix
+backups_*/
+
+# Logs and local environment
+*.log
+.php_error_log
+.env
+
+# IDE / OS files
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store

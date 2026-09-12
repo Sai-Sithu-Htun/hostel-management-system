@@ -1,0 +1,259 @@
+
+
+#modal {
+  margin-top: 20px;
+   width: 340px;
+   height: auto;
+margin-left: 10px;
+    background-color: #f2ff04;
+  }
+
+  #modal h4,p,form{
+    margin: 0;
+  }
+  #modal button{
+    margin: 10px;
+  }
+  .N_hall{
+    background-color: rgb(118, 255, 255);
+  
+  }
+  .N_hall .corridor{
+    fill:#177fff; stroke: none; width:325px ;height:165px;
+  }
+  
+  .N_hall rect{
+    fill:#ffc400 ;stroke:black; stroke-width:0.5px ; width:30px ;height:55px;
+  }
+  .N_hall .pillow{
+    fill:#00916a ;stroke:black; stroke-width:0.5px ; width:18px ;height:7px;
+  }
+
+  
+	.floorPlanM2{
+    background-color: rgb(118, 255, 255);
+        height: 360px;width: 660px;
+    }
+    .floorPlanM2 rect{
+        fill:#70bfff ;stroke:black; stroke-width:0.5px ; width:30px ;height:30px;
+      }
+      .floorPlanM2 .entrance{
+        fill:#e8e7e6 ;  width: 30px;height:15px; stroke: none;
+      }
+      .floorPlanM2 .bathrooms{
+        fill:#d279d4 ;  width: 60px;height:45px;
+      }
+      .floorPlanM2 .rectGroup rect:hover{
+        stroke:black; stroke-width:2.5px ; 
+       }
+       .floorPlanM2 .occupied{
+        fill:#f07373;stroke:black; stroke-width:0.5px ; width:30px ;height:30px;
+      }
+      .floorPlanM2 .corridor{
+        fill:#e8e7e6; stroke: none; width:600px ;height:90px;
+      }
+      .floorPlanM2 .stairs{
+        fill:#ffb030 ;stroke:black; stroke-width:0.5px ; width:30px ;height:60px;
+      }
+      .floorPlanM2 .food{
+        fill:#f5ea51 ;  width:90px ;height:165px; stroke: none;stroke:black; stroke-width:0.5px ;
+      }
+
+
+      .floorPlanN_hall{
+        background-color: rgb(118, 255, 255);
+            height: 220px;width: 660px;
+        }
+        .floorPlanN_hall rect{
+            fill:#70bfff ;stroke:black; stroke-width:0.5px ; width:30px ;height:30px;
+          }
+          
+          .floorPlanN_hall .bathrooms{
+            fill:#d279d4 ;  width: 60px;height:45px;
+          }
+          .floorPlanN_hall .rectGroup rect:hover{
+            stroke:black; stroke-width:2.5px ; 
+           }
+           .floorPlanN_hall .occupied{
+            fill:#f07373;stroke:black; stroke-width:0.5px ; width:30px ;height:30px;
+          }
+          .floorPlanN_hall .corridor{
+            fill:#e8e7e6; stroke: none; width:600px ;height:90px;
+          }
+          .floorPlanN_hall .stairs{
+            fill:#ffb030 ;stroke:black; stroke-width:0.5px ; width:30px ;height:60px;
+          }
+          .floorPlanN_hall .food{
+            fill:#f5ea51 ;  width: 165px;height:60px; stroke: none;stroke:black; stroke-width:0.5px ;
+          }
+
+
+    .floorPlan{
+      background-color: rgb(118, 255, 255);
+      width:630px;height:435px;
+    }
+.floorPlan rect{
+  fill:#70bfff ;stroke:black; stroke-width:0.5px ; width:30px ;height:30px;
+}
+.floorPlan .rectGroup rect:hover{
+ stroke:black; stroke-width:2.5px ; 
+}
+.floorPlan .occupied{
+  fill:#f07373;stroke:black; stroke-width:0.5px ; width:30px ;height:30px;
+}
+.floorPlan .stairs{
+  fill:#ffb030 ;stroke:black; stroke-width:0.5px ; width:60px ;height:30px;
+}
+.floorPlan .middleStair{
+  fill:#ffb030 ;stroke:black; stroke-width:0.5px ; width:30px ;height:30px;
+}
+
+.floorPlan .corridor1{
+  fill:#e8e7e6; stroke: none; width:90px ;height:255px;
+}
+.floorPlan .corridor2{
+  fill:#e8e7e6 ;stroke: none; width:570px ;height:90px;
+}
+.floorPlan .corridor3{
+  fill:#e8e7e6 ; stroke: none; width: 90px;height:255px;
+}
+.floorPlan .bathrooms{
+  fill:#d279d4 ;  width: 60px;height:120px;
+}
+.floorPlan .entrance{
+  fill: rgb(118, 255, 255) ;  width: 60px;height:15px; stroke: none;
+}
+.floorPlan .food{
+  fill:#f5ea51 ;  width: 330px;height:150px; stroke:black; stroke-width:0.5px;
+}
+
+
+
+	#photoSlide i{
+      position: relative;
+      display: block;
+      width: 500px;
+      height: 300px;
+      overflow: hidden;
+      border-radius: 5px;
+    }
+	#photoSlide i:before, #photoSlide i:after {
+      content: '⥪';
+      position: absolute;
+      top: 50%;
+      left: 1rem;
+      z-index: 2;
+      width: 2rem;
+      height: 2rem;
+      background: dodgerblue;
+      color: white;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      pointer-events: none;
+    }
+	#photoSlide i:after{
+      content: '⥭';
+      left: auto;
+      right: 1rem;
+	}
+	#photoSlide input{
+      appearance: none;
+      -ms-appearance: none;
+      -webkit-appearance: none;
+      display: block;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      border-radius: 5px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      transform: translateX(100%);
+      transition: transform ease-in-out 400ms;
+      z-index: 1;}
+
+	 #photoSlide input:focus {
+      outline: none;
+    }
+
+    #photoSlide input:after {
+      content: attr(title);
+      position: absolute;
+      top: 1rem;
+      left: 1rem;
+      background-color: rgba(0, 0, 0, 0.4);
+      color: white;
+      padding: .5rem;
+      font-size: 1rem;
+      border-radius: 5px;
+    }
+
+	#photoSlide input:not(checked):before {
+      content: '';
+      position: absolute;
+      width: 2rem;
+      height: 2rem;
+      border-radius: 50%;
+      top: 50%;
+      left: calc(-100% + 1rem);
+    }
+
+	#photoSlide input:checked:before {
+      display: none;
+      left: 1rem;
+    }
+
+	#photoSlide   input:checked {
+      transform: translateX(0);
+      z-index: 0;
+      box-shadow: -5px 10px 20px -15px rgba(0, 0, 0, 1);
+    }
+
+  #photoSlide  input:checked + input:before {
+      left: -3rem;
+    }
+
+ #photoSlide   input:checked +  input ~  input:before {
+      display: none;
+    }
+#photoSlide {
+  display: flex;
+}
+#roomList li{
+  padding:3.29px;
+}
+
+
+
+#photoSlide .photoslideBak {
+  background-color:#dbe9ff;
+margin: 30px;
+  padding: 8px;
+  border: 1.5px solid black;
+  border-radius: 10px; 
+}
+
+  #photoSlide .textBox { 
+    background-color: #f7f7e4;
+    min-width: 300px;
+width: auto;
+height: 330px;
+    overflow:scroll;
+    margin: 30px;
+  padding: 10px;
+  border: 1.5px solid black;
+
+  }
+  #photoSlide .textBox p{ 
+  padding: 10px;
+  }
+
+  .floormapSlide .flex-container{
+    display: flex;
+  }
+  
+    
