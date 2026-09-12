@@ -25,21 +25,25 @@ easy to distribute.
 
 ---
 
-## Screenshots / Demo
+Screenshots / Demo
 
-> **Placeholder:** Screenshots and a short demo walkthrough will be added here.
-> Add image files under a `docs/screenshots/` folder and reference them, for
-> example `![Student dashboard](docs/screenshots/student-dashboard.png)`.
+Screenshots below show the main interfaces and features of the Hostel Management System.
 
-Suggested screenshots to capture:
-- Public homepage (`index.php`)
-- Student dashboard with the floor map and room-availability colours
-- Booking application form
-- Admin hostel-selection screen
-- Admin dashboard (scoped to a hostel)
-- Admin manage-students and student search
+Student Login
 
----
+Student Dashboard
+
+Hostel & Room Map
+
+Hostel Booking
+
+Admin Dashboard
+
+Demo
+
+This project is currently intended to run locally using XAMPP, PHP, and MySQL/MariaDB.
+
+See the setup instructions below to run the project locally.
 
 ## Main Features
 
